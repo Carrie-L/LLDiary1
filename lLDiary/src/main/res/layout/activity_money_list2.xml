@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.carrie.lldiary.ui.MoneyListActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl_select"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_margin="16dp"
+        android:background="@drawable/label_bg_normal">
+
+        <TextView
+            android:id="@+id/tv_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="最近一周" />
+
+        <ImageView
+            android:id="@+id/iv_down_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/tv_select"
+            android:src="@drawable/ic_down_arrow" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_custom_date"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_alignTop="@id/rl_select"
+        android:layout_toRightOf="@id/rl_select"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_start_time"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:background="@drawable/label_bg_pressed"
+            android:gravity="center"
+            android:text="2017-05-01"
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="2dp"
+            android:layout_toRightOf="@id/tv_start_time"
+            android:background="@drawable/line2" />
+
+        <TextView
+            android:id="@+id/tv_end_time"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@id/tv_start_time"
+            android:background="@drawable/label_bg_pressed"
+            android:gravity="center"
+            android:text="2017-05-01"
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:id="@+id/iv_query"
+            android:layout_width="32dp"
+            android:layout_height="28dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/tv_end_time"
+            android:background="@drawable/ic_mango"
+            android:gravity="center" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/rl_select"
+        android:background="@color/primaryColor" />
+
+        <TextView
+            android:id="@+id/tv_expense_summary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rl_select"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/bg_item_ann"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="16dp"
+            android:text="@string/expense_summary"
+            android:textColor="#ff000000"
+            android:fitsSystemWindows="true"
+            />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view_money"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tv_expense_summary"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    >
+    
+      <com.carrie.lldiary.view.SettingItemView
+            android:id="@+id/show_user_info"
+            style="@style/baseStyle"
+            android:background="@color/white"
+            android:visibility="gone"
+            android:layout_marginBottom="@dimen/acount_item_margin" 
+           />
+    
+    <!-- 修改 -->
+    <LinearLayout
+        android:id="@+id/ll1"
+        style="@style/baseStyle"
+        android:orientation="vertical" 
+        android:background="@color/white"
+        android:layout_below="@id/show_user_info"
+        >
+      <!--   <ImageView
+            android:id="@+id/iv_line1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/setting_line_height"
+            /> -->
+
+        <com.carrie.lldiary.view.SettingItemView
+            android:id="@+id/modify_username"
+            style="@style/baseStyle" />
+
+        <com.carrie.lldiary.view.SettingItemView
+            android:id="@+id/modify_userpwd"
+            style="@style/baseStyle" />
+
+        <com.carrie.lldiary.view.SettingItemView
+            android:id="@+id/modify_useravatar"
+            style="@style/baseStyle" />
+    </LinearLayout>
+    
+    <!--  绑定 -->
+    <LinearLayout
+        android:id="@+id/ll2"
+        style="@style/baseStyle"
+        android:orientation="vertical" 
+        android:layout_below="@id/ll1"
+        android:layout_marginTop="@dimen/acount_item_margin"
+        android:background="@color/white"
+        >
+
+        <com.carrie.lldiary.view.SettingItemView
+            android:id="@+id/binding_email"
+            style="@style/baseStyle" />
+
+        <com.carrie.lldiary.view.SettingItemView
+            android:id="@+id/binding_qq"
+            style="@style/baseStyle" />
+
+        <com.carrie.lldiary.view.SettingItemView
+            android:id="@+id/binding_weibo"
+            style="@style/baseStyle" />
+        
+         <com.carrie.lldiary.view.SettingItemView
+            android:id="@+id/binding_wx"
+            style="@style/baseStyle" />
+    </LinearLayout>
+    
+    <com.carrie.lldiary.view.SettingItemView
+            android:id="@+id/logout"
+            android:layout_marginTop="@dimen/acount_item_margin"
+            android:layout_below="@id/ll2"
+            android:background="@color/white"
+            style="@style/baseStyle" />
+    
+    
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:gravity="center_vertical"
+    >
+
+    <ImageView
+        android:id="@+id/iv_classify_icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:gravity="center_vertical"
+        />
+
+    <TextView
+        android:id="@+id/tv_account"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:maxLength="7"
+        android:layout_alignParentRight="true"
+        android:gravity="center_vertical|end"
+        android:maxLines="1"
+        />
+
+    <TextView
+        android:id="@+id/tv_spend"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_toLeftOf="@id/tv_account"
+        android:maxLength="12"
+        android:gravity="center_vertical|end"
+        android:paddingRight="16dp"
+        android:maxLines="1"
+        />
+
+    <TextView
+        android:id="@+id/tv_money_content"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:layout_toLeftOf="@id/tv_spend"
+        android:layout_toRightOf="@id/iv_classify_icon"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:gravity="center"
+        android:maxLines="1"
+        />
+
+</RelativeLayout>

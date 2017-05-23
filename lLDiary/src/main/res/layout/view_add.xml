@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="48dp">
+
+    <RelativeLayout
+        android:id="@+id/rl_plus"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="7dp"
+        android:layout_marginEnd="7dp">
+
+        <ImageButton
+            android:id="@+id/ib_add"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/icon_plus"
+            />
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/et_add_balance"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="16dp"
+        android:layout_toLeftOf="@id/rl_plus"
+        android:layout_centerVertical="true"
+        android:hint="余额"
+        android:visibility="gone"/>
+
+
+    <EditText
+        android:id="@+id/et_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_toLeftOf="@id/et_add_balance"
+        android:layout_centerVertical="true"
+        android:hint="名称"
+        android:nextFocusForward="@id/et_add_balance"/>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/popup_bg"
+    >
+
+    <TextView
+        android:id="@+id/tv_size_small"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textSize="12sp"
+        android:text="@string/size_small"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/tv_size_middle"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textSize="14sp"
+        android:text="@string/size_middle"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/tv_size_large"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textSize="16sp"
+        android:text="@string/size_large"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/tv_size_xlarge"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textSize="20sp"
+        android:text="@string/size_x_large"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/tv_size_xxlarge"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textSize="24sp"
+        android:text="@string/size_xx_large"
+        android:gravity="center"
+        />
+
+</LinearLayout>

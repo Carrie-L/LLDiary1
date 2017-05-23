@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    >
+    
+     <ImageView
+        android:id="@+id/iv_line1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_line_height"
+       />
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" >
+
+        <ImageView
+            android:id="@+id/iv_icon"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/setting_margin"
+            android:layout_marginRight="@dimen/setting_margin"
+            />
+
+        <TextView
+            android:id="@+id/tv_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/iv_icon"
+          />
+
+        <ImageView
+            android:id="@+id/iv_status"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/setting_margin"
+            android:background="@android:drawable/ic_menu_send" />
+    </RelativeLayout>
+    
+     <ImageView
+        android:id="@+id/iv_line2"
+        android:layout_width="45dp"
+        android:layout_height="@dimen/setting_line_height"
+        android:layout_below="@id/rl"
+       />
+
+    <ImageView
+        android:id="@+id/iv_line3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_line_height"
+        android:layout_below="@id/rl"
+        android:layout_toRightOf="@id/iv_line2"
+       />
+
+</RelativeLayout>

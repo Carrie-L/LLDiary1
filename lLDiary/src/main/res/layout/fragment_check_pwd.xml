@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_fragment_check_pwd"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/bg"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:id="@+id/rl_bar"
+        android:background="@drawable/title_bar1" >
+
+        
+        <ImageButton
+            android:id="@+id/ib_back_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/btn_back"
+            android:clickable="true"
+            android:padding="8dp" />
+       
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@null"
+            android:textSize="@dimen/text_title_size" />
+    </RelativeLayout>
+    
+    <TextView
+        android:id="@+id/tv_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="您的密码是："
+        android:layout_below="@id/rl_bar"
+        android:visibility="invisible"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        />
+
+    <!--
+         <view
+        android:id="@+id/LockView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        class="com.carrie.lldiary.utils.GestureLock" />
+    -->
+
+    <com.carrie.lldiary.utils.LockPatternView
+        xmlns:app="http://schemas.android.com/apk/res/com.wgs.jiesuo"
+        android:id="@+id/LockView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        />
+    
+    <TextView
+        android:id="@+id/forgetPwd"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="@string/forgetPwd"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_below="@id/LockView"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        />
+
+</RelativeLayout>

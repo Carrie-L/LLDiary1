@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.carrie.lldiary.activity.DiaryDetailsActivity" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/azure" >
+
+        <ImageButton
+            android:id="@+id/ib_details_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/btn_back" />
+
+        <TextView
+            android:id="@+id/tv_details_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@null"
+            android:textSize="@dimen/text_title_size" />
+
+        <TextView
+            android:id="@+id/tv_details_edit"
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/btn_edit"
+            android:padding="8dp"/>
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/sv_details_scrolls"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical" 
+        android:background="@drawable/txt_theme01"
+        >
+
+        <RelativeLayout
+            android:id="@+id/rl_details_scroll_lay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" 
+            >
+
+            <TextView
+                android:id="@+id/tv_details_time"
+                android:layout_width="wrap_content"
+                android:layout_height="32.0dip"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="5.0dip"
+                android:focusable="false"
+                android:gravity="center_vertical"
+                android:text="date"
+                android:textColor="@color/deep_gray"
+                android:textSize="14.0sp" />
+
+            <TextView
+                android:id="@+id/tv_details_body"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/tv_details_time"
+                android:padding="10dp"
+                android:scrollbars="vertical"/>
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.carrie.lldiary.view.EditView
+        android:id="@+id/et_money_content"
+        style="@style/money_edit_style"
+        android:nextFocusDown="@+id/et_money_price" />
+
+    <com.carrie.lldiary.view.EditView
+        android:id="@+id/et_money_price"
+        style="@style/money_edit_style"
+        android:nextFocusDown="@+id/et_money_classify" />
+
+
+    <com.carrie.lldiary.view.EditView
+        android:id="@+id/et_money_classify"
+        style="@style/money_edit_style"
+        android:inputType="numberDecimal" />
+
+    <com.carrie.lldiary.view.EditView
+        android:id="@+id/et_money_account"
+        style="@style/money_edit_style" />
+
+    <com.carrie.lldiary.view.EditView
+        android:id="@+id/et_money_date"
+        style="@style/money_edit_style"
+        android:nextFocusDown="@+id/et_money_price"
+        />
+
+    <com.carrie.lldiary.view.RadioButtonView
+        android:id="@+id/rb_money_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        />
+
+
+</LinearLayout>

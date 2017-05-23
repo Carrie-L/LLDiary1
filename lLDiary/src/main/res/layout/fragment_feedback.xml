@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/fb_fragment_activity_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/fb_fragment_activity" />
+
+    <Button
+        android:id="@+id/fb_help_activity_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fb_fragment_activity_btn"
+        android:text="@string/fb_help_activity" />
+
+    <Button
+        android:id="@+id/sdk_fb_activity_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fb_help_activity_btn"
+        android:layout_centerInParent="true"
+        android:text="@string/sdk_fb_activity" />
+
+    <Button
+        android:id="@+id/multi_conversation_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sdk_fb_activity_btn"
+        android:layout_centerInParent="true"
+        android:text="@string/multi_conversation_activity" />
+</RelativeLayout>

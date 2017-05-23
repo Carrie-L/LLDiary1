@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_text"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_marginLeft="@dimen/etv_margin"
+        android:layout_marginStart="@dimen/etv_margin"
+        android:gravity="center_vertical"
+        android:textColor="#ff000000"
+        />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/material_edit_text_right"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_text"
+        android:layout_marginRight="@dimen/etv_margin"
+        android:layout_marginEnd="@dimen/etv_margin"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        app:met_primaryColor="@color/primaryColorDark"
+        app:met_baseColor="@color/primaryColor_accent_transparent"
+        app:met_underlineColor="@color/primaryColor_accent_transparent"
+        app:met_singleLineEllipsis="true"
+        android:textCursorDrawable="@drawable/edit_text_cursor_color"
+        android:visibility="gone"
+        app:met_floatingLabel="normal"
+        />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/material_edit_text_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_text"
+        android:layout_marginLeft="@dimen/etv_margin"
+        android:layout_marginRight="@dimen/etv_margin"
+        app:met_primaryColor="@color/primaryColorDark"
+        app:met_baseColor="@color/primaryColor_accent_transparent"
+        app:met_underlineColor="@color/primaryColor_accent_transparent"
+        app:met_singleLineEllipsis="true"
+        android:textCursorDrawable="@drawable/edit_text_cursor_color"
+        android:layout_toLeftOf="@id/material_edit_text_right"
+        android:layout_toStartOf="@id/material_edit_text_right"
+        android:focusable="false"
+        />
+
+
+
+</RelativeLayout>

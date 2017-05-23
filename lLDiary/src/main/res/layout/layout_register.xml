@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:orientation="vertical">
+
+    <com.carrie.lldiary.view.EditTextView
+        android:id="@+id/met_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_send_code"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@color/primaryColor_accent_transparent"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/send_code"
+            android:textColor="@color/white" />
+
+        <com.carrie.lldiary.view.EditTextView
+            android:id="@+id/met_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/btn_send_code"
+            android:layout_toStartOf="@id/btn_send_code" />
+
+    </RelativeLayout>
+
+    <com.carrie.lldiary.view.EditTextView
+        android:id="@+id/met_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.carrie.lldiary.view.EditTextView
+        android:id="@+id/met_confirm_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_post"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@color/primaryColor_accent_transparent"
+        android:text="@string/post"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/register_skip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="@string/register_skip"
+        android:textColor="@color/primaryColor_accent_transparent" />
+
+</LinearLayout>

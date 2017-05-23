@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:shrinkColumns="4"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    >
+
+    <TableRow android:minHeight="40dip" android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/iv_classify_icon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/emoji_fruit"
+            />
+
+        <TextView
+            android:id="@+id/tv_money_content"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="冒菜"
+            android:layout_weight="1"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_spend"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:maxLength="12"
+            android:gravity="center_vertical|end"
+            android:paddingRight="8dp"
+            android:maxLines="1"
+            android:text="234元"
+            />
+
+        <TextView
+            android:id="@+id/tv_account"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:maxLength="7"
+            android:gravity="center_vertical|end"
+            />
+
+    </TableRow>
+
+
+
+</TableLayout>

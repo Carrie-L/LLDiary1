@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="green">#00C78C</color>
+    <color name="azure">#E0FFFF</color>
+    <color name="pink">#FFE4E1</color>
+    <color name="fruit_green">#C1FFC1</color>
+    <color name="deep_gray">#ff666666</color>
+    <color name="deep_pink">#FF1493</color>
+    <color name="light_pink">#ffaaaa</color>
+    <color name="red">#FF0000</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="primaryColor">#ffaaaa</color><!--rgb(255,170,170)-->
+    <color name="primaryColorDark">#ffaaaa</color><!--ff4081-->
+    <color name="primaryColor_transparent_96">#60FFAAAA</color>
+    <color name="primaryColor_accent_transparent">#b2ff4081</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="md_grey_700">#616161</color>
+
+    <!--有primary color背景的文字颜色，比如如果是深色primary color，则为白色；如果是亮色primary color，则为黑色-->
+    <color name="textColorBg">#ffffff</color>
+    <!--文字颜色-->
+    <color name="textColor">#ff000000</color>
+    <!--和primary color颜色相同的文字颜色-->
+    <color name="textColorPrimary">#ffaaaa</color>
+
+    <color name="primary_text_color_trans">#b2000000</color><!--b2开头：70%的不透明度-->
+
+
+    <color name="hint">#ffcccccc</color>
+    <color name="black">#000000</color>
+    <color name="pink_pink">#f97798</color>
+    <color name="white_smoke">#F5F5F5</color>
+    <color name="main_light_gray">#CDC9C9</color>
+
+    <color name="blue">#FF375BF1</color>
+    <color name="yellow">#FFF7D23E</color>
+
+    <color name="blue_semi_transparent">#805677fc</color>
+    <color name="pink_semi_transparent">#80e91e63</color>
+    <color name="blue_semi_transparent_pressed">#80738ffe</color>
+
+    <!--灰色-->
+    <color name="greyPrimary">#9e9e9e</color>
+    <color name="greyPrimaryDark">#212121</color>
+
+    <color name="dark_transparent">#87000000</color>
+    <color name="dark">#6D6D6D</color>
+    <!--<color name="textColorPrimary">#1C1C1C</color>-->
+
+    <color name="indigo_500">#3f51b5</color>
+    <color name="indigo_700">#303f9f</color>
+    <color name="cursor_500">#FFEB3B</color>
+
+    <color name="light_grey_trans">#2e9e9e9e</color>
+
+
+    <!--************************  Material Design Color  ****************************-->
+    <color name="teal_primary_color">#009688</color>
+    <color name="teal_primary_dark">#00796B</color>
+    <color name="teal_primary_light">#B2DFDB</color>
+    <color name="teal_accent">#00796B</color>
+    <color name="teal_text">#FFFFFF</color>
+    <color name="teal_primary_text">#212121</color>
+    <color name="teal_secondary_text">#727272</color>
+    <color name="teal_divider_color">#B6B6B6</color>
+
+    <color name="yellow_primary_color">#FFEB3B</color>
+    <color name="yellow_primary_dark">#FBC02D</color>
+    <color name="yellow_primary_light">#FFF9C4</color>
+    <color name="yellow_accent">#FFEB3B</color>
+    <color name="yellow_text">#FFFFFF</color>
+    <color name="yellow_primary_text">#212121</color>
+    <color name="yellow_secondary_text">#727272</color>
+    <color name="yellow_divider_color">#B6B6B6</color>
+
+    <color name="light_green_accent">#8BC34A</color>
+
+    <color name="cyan_accent">#00BCD4</color>
+
+    <color name="pink_primary">#e91e63</color>
+    <color name="pink_dark">#c2185b</color>
+
+    <color name="purple_primary">#9c27b0</color>
+    <color name="purple_accent">#E040FB</color>
+
+
+    <!--************************  Background Color  ****************************-->
+    <color name="bg_pure_primary_color">#ffaaaa</color>
+    <color name="bg_pure_corn_silk">#FFF8DC</color>
+    <color name="bg_pure_lavender_blush">#FFF0F5</color>
+    <color name="bg_pure_honeydew">#F0FFF0</color>
+    <color name="bg_pure_seashell">#FFF5EE</color>
+
+
+</resources>

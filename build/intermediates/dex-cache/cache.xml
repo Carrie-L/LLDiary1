@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\studio_workspace\LLDiary1\lLDiary\libs\ShareSDK-Wechat-2.8.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f3f9d8cdaf36e449309698b6d3ec46fd47e4e14c">
+        <dex dex="E:\studio_workspace\LLDiary1\lLDiary\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-2.8.2_d175dba30a130d5b52ff1a8a820f02fdfd0bf7f6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\studio_workspace\LLDiary1\lLDiary\libs\com.umeng.message.lib_v2.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2e43bd4164f510a6b4be65f569356d79237b36ed">
+        <dex dex="E:\studio_workspace\LLDiary1\lLDiary\build\intermediates\pre-dexed\debug\com.umeng.message.lib_v2.4.1_0c52c2032a79a7b64fa49c881716763e63641e92.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\new\.android\build-cache\88c92d091273b0609af92c553f131cac1043d1f4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="E:\studio_workspace\LLDiary1\lLDiary\build\intermediates\pre-dexed\debug\classes_58a626ff0062f79d0cf2d1d7415bb388c271be14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\studio_workspace\LLDiary1\lLDiary\libs\ShareSDK-Core-2.8.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="521f72e4ce63c721c5d3006bfa4fa712dd51bea9">
+        <dex dex="E:\studio_workspace\LLDiary1\lLDiary\build\intermediates\pre-dexed\debug\ShareSDK-Core-2.8.2_bef2e2ff0d09e65367b11282145a8d090caec52b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\studio_workspace\LLDiary1\lLDiary\libs\umeng-update-v2.6.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bfeea30c4995f90a4374ce4177772a4579f2797">
+        <dex dex="E:\studio_workspace\LLDiary1\lLDiary\build\intermediates\pre-dexed\debug\umeng-update-v2.6.0.1_95e6511faa3869b52b46204d66ccf2e55c73dbe3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\studio_workspace\LLDiary1\lLDiary\libs\com.umeng.fb.5.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="993055275c65a58d47e98493d8028a74a0e1c06e">
+        <dex dex="E:\studio_workspace\LLDiary1\lLDiary\build\intermediates\pre-dexed\debug\com.umeng.fb.5.4.0_1c579f200d19beb294c0cac2e40f9faf63c7f05b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\new\.android\build-cache\2571e4cac639440c3ed1d2a53d18ade55190c7b1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="E:\studio_workspace\LLDiary1\lLDiary\build\intermediates\pre-dexed\debug\classes_8ec9479f3537ec7195330d4536ce764eae00825b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\studio_workspace\LLDiary1\lLDiary\libs\okhttp-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="40340c0748190fe897baf7bffbc1b282734294e5">
+        <dex dex="E:\studio_workspace\LLDiary1\lLDiary\build\intermediates\pre-dexed\debug\okhttp-2.4.0_cedb1d0e92cc23346e4df47b3d06f3db0cfd0b04.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\studio_workspace\LLDiary1\lLDiary\libs\ShareSDK-SinaWeibo-2.8.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e8408628154b6e153c46dc0217cfa4b6ed0694b9">
+        <dex dex="E:\studio_workspace\LLDiary1\lLDiary\build\intermediates\pre-dexed\debug\ShareSDK-SinaWeibo-2.8.2_03197e17bb9cabfb55d87bacaae7c20f434cf3af.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\studio_workspace\LLDiary1\lLDiary\libs\umeng-analytics-v5.5.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5d503ec571e2e98d972209afa203f94d11882c15">
+        <dex dex="E:\studio_workspace\LLDiary1\lLDiary\build\intermediates\pre-dexed\debug\umeng-analytics-v5.5.3_103a620e618908ad45e7993f8ac869cc1d55b8e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\studio_workspace\LLDiary1\lLDiary\libs\ShareSDK-QZone-2.8.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dc2c7e7eaa2bad4c5333b6471d388a64df781d1b">
+        <dex dex="E:\studio_workspace\LLDiary1\lLDiary\build\intermediates\pre-dexed\debug\ShareSDK-QZone-2.8.2_37a1a1decdbc9691493e381b26efe5af1bb5087f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\studio_workspace\LLDiary1\lLDiary\libs\BmobSDK_V3.4.6_0415.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="41f54bb2846705eea0de5df48ddbcba378bd54e5">
+        <dex dex="E:\studio_workspace\LLDiary1\lLDiary\build\intermediates\pre-dexed\debug\BmobSDK_V3.4.6_0415_112527ab83b039935f4e27ac0c77a663fb76bcf8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\studio_workspace\LLDiary1\lLDiary\libs\ShareSDK-Wechat-Favorite-2.8.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1af0c437d793e4f8689be564e02b8c2dec50488a">
+        <dex dex="E:\studio_workspace\LLDiary1\lLDiary\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Favorite-2.8.2_9c91179609e15bacb92aebbce7a589f0f353a628.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\studio_workspace\LLDiary1\lLDiary\libs\ShareSDK-YouDao-2.8.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ff0ee7569a2ba304bf5d029b9fc1d4ec4fc511a4">
+        <dex dex="E:\studio_workspace\LLDiary1\lLDiary\build\intermediates\pre-dexed\debug\ShareSDK-YouDao-2.8.2_75edb473152d4740aa0a8e18566a8b64b90146c5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\studio_workspace\LLDiary1\lLDiary\libs\ShareSDK-QQ-2.8.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fbb64a7456b98849ee2868a55aa0b3bb3f6e6a29">
+        <dex dex="E:\studio_workspace\LLDiary1\lLDiary\build\intermediates\pre-dexed\debug\ShareSDK-QQ-2.8.2_6222c0d37c36c4fe07f60817331e88be6ebbc0b6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\studio_workspace\LLDiary1\lLDiary\libs\ShareSDK-Wechat-Core-2.8.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="002b4be4096d7ce75e969449fc81b62e312748a6">
+        <dex dex="E:\studio_workspace\LLDiary1\lLDiary\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Core-2.8.2_bf88e647fe05eaab9e6795e77c60e38623208fe7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\studio_workspace\LLDiary1\lLDiary\libs\xUtils-2.6.13.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="149586602e581f306ccc6fe813a60d7b956252d9">
+        <dex dex="E:\studio_workspace\LLDiary1\lLDiary\build\intermediates\pre-dexed\debug\xUtils-2.6.13_ac139c6eaad0491f159292e9978aac8261b5639b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\studio_workspace\LLDiary1\lLDiary\libs\android-async-http-1.4.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3bae85a076241828810bf8fbcc12e5891d5fc34c">
+        <dex dex="E:\studio_workspace\LLDiary1\lLDiary\build\intermediates\pre-dexed\debug\android-async-http-1.4.4_135d45d543e78ac74fcfb664d5490b679e7441c9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\studio_workspace\LLDiary1\lLDiary\libs\ShareSDK-Wechat-Moments-2.8.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1b40dd5cc7381571d1cc57e03fcf328598d559c4">
+        <dex dex="E:\studio_workspace\LLDiary1\lLDiary\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Moments-2.8.2_65e3b94805024c3d5d74d442a822e5028eb67282.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\studio_workspace\LLDiary1\lLDiary\libs\ShareSDK-Twitter-2.8.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9a6b3827ab45de1b3b7df380c2ba95e53e3d5228">
+        <dex dex="E:\studio_workspace\LLDiary1\lLDiary\build\intermediates\pre-dexed\debug\ShareSDK-Twitter-2.8.2_1dbd1cf4a0cc3993666018be02f2edd5887c41e2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\studio_workspace\LLDiary1\lLDiary\libs\okio-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5b72bf48563ea8410e650de14aa33ff69a3e8c35">
+        <dex dex="E:\studio_workspace\LLDiary1\lLDiary\build\intermediates\pre-dexed\debug\okio-1.4.0_c6c286d1b6537013a416d5d5f4dec8d324f5664b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\studio_workspace\LLDiary1\lLDiary\libs\ShareSDK-Evernote-2.8.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e807f5b49afe72a1b6d850bad24976416f311edb">
+        <dex dex="E:\studio_workspace\LLDiary1\lLDiary\build\intermediates\pre-dexed\debug\ShareSDK-Evernote-2.8.2_624f7343cdf3ce0ffc4009158ca39e8a95109b80.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\studio_workspace\LLDiary1\lLDiary\libs\ShareSDK-Facebook-2.8.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb4a741c1bce3db23e592b939933cf9872bc20b">
+        <dex dex="E:\studio_workspace\LLDiary1\lLDiary\build\intermediates\pre-dexed\debug\ShareSDK-Facebook-2.8.2_c77a8e9d8e30ad69d3ab7ed3c23aadbb34e8cc01.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\studio_workspace\LLDiary1\lLDiary\libs\Baidu_Mtj_3.7.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0ab737d9138609f5080e154a97f6073863de2a6c">
+        <dex dex="E:\studio_workspace\LLDiary1\lLDiary\build\intermediates\pre-dexed\debug\Baidu_Mtj_3.7.3.1_d1ec9ad9eb065176efbf6bd0056a151bb318b014.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\studio_workspace\LLDiary1\lLDiary\libs\MobCommons-2017.0321.1624.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d49d36ec407502d69c217d81a87283eba9c746b2">
+        <dex dex="E:\studio_workspace\LLDiary1\lLDiary\build\intermediates\pre-dexed\debug\MobCommons-2017.0321.1624_13791b2855bc31a696427dc354b5d04c583678ba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\studio_workspace\LLDiary1\lLDiary\libs\MobTools-2017.0321.1624.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="242b3a8f9b6b47d2ea8cf932cd978a5b6651d22a">
+        <dex dex="E:\studio_workspace\LLDiary1\lLDiary\build\intermediates\pre-dexed\debug\MobTools-2017.0321.1624_50485586569640bac4e138d3b01e871391e918a2.jar" />
+    </item>
+
+</items>

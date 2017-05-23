@@ -1,0 +1,6 @@
+<root>
+  <item
+      name='android.view.LayoutInflater android.view.View inflate(int, android.view.ViewGroup, boolean) 0'>
+    <annotation name='java.lang.annotation.Deprecated' />
+  </item>
+</root>

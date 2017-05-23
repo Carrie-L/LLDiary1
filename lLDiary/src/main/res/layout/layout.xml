@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/windows_bg"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/time_filter_topbglay"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/cast_setting"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/filter_main_sync_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="60.0dip"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="15.0dip"
+            android:gravity="center_vertical" >
+        </RelativeLayout>
+
+        <ScrollView
+            android:id="@+id/timeline_filter_scrollview"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10.0dip"
+            android:background="@drawable/layout_test_2" >
+        </ScrollView>
+        
+        <ImageView
+            android:id="@+id/time_filter_img"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13.0dip"
+            android:contentDescription="@null"
+            android:scaleType="fitStart"
+            android:src="@drawable/v4_filter_bg4_04" />
+          
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,112 @@
+apply plugin: 'com.android.application'
+apply plugin: 'android-apt'
+android {
+    useLibrary 'org.apache.http.legacy'
+
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+
+
+    defaultConfig {
+        applicationId "com.carrie.lldiary"
+        minSdkVersion 17
+        targetSdkVersion 25
+        versionCode 7
+        versionName "2.0.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+
+    dataBinding {
+        enabled = true
+    }
+
+    //**bmob-sdk:3.4.6版本依赖包，用于兼容Android6.0系统**
+    //   useLibrary 'org.apache.http.legacy'
+
+    packagingOptions {
+        exclude 'META-INF/maven/com.squareup.okhttp/okhttp/pom.xml'
+        exclude 'META-INF/maven/com.squareup.okhttp/okhttp/pom.properties'
+        exclude 'META-INF/maven/com.squareup.okio/okio/pom.xml'
+        exclude 'META-INF/maven/com.squareup.okio/okio/pom.properties'
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    repositories {
+        flatDir {
+            dirs 'libs' //就是你放aar的目录地址
+        }
+    }
+
+
+}
+
+dependencies {
+    compile files('libs/android-async-http-1.4.4.jar')
+    compile files('libs/Baidu_Mtj_3.7.3.1.jar')
+    compile files('libs/BmobSDK_V3.4.6_0415.jar')
+    compile files('libs/com.umeng.fb.5.4.0.jar')
+    compile files('libs/okhttp-2.4.0.jar')
+    compile files('libs/okio-1.4.0.jar')
+    //    compile files('libs/scs-android-sdk-0.0.1-SNAPSHOT.jar')
+    compile files('libs/umeng-analytics-v5.5.3.jar')
+    compile files('libs/com.umeng.message.lib_v2.4.1.jar')
+    compile files('libs/umeng-update-v2.6.0.1.jar')
+    compile files('libs/xUtils-2.6.13.jar')
+    //以下SDK开发者请根据需要自行选择
+
+    //bmob-sdk：Bmob的android sdk包，包含了Bmob的数据存储、文件等服务，以下是最新的bmob-sdk:
+
+    //    compile 'cn.bmob.android:bmob-sdk:3.4.6'
+
+    //    compile 'com.squareup.okhttp:okhttp:2.4.0'//自`V3.4.3版本`开始，使用`okhttp`优化SDK的网络框架
+
+    //    compile 'com.squareup.okio:okio:1.4.0'
+
+    //注:bmob-sdk:3.4.6需要依赖okhttp（2.4.0）、okio（2.4.0），如果需要兼容Android6.0系统，则还需要添加support-v4（23.2.1）及org.apache.http.legacy包，具体可查看下面注释[1]的解释
+    //下拉刷新
+
+    //短信验证和分享
+    compile files('libs/MobCommons-2017.0321.1624.jar')
+    compile files('libs/MobTools-2017.0321.1624.jar')
+    compile name: 'SMSSDK-2.1.4', ext: 'aar'
+    compile name: 'SMSSDKGUI-2.1.4', ext: 'aar'
+    compile files('libs/ShareSDK-Core-2.8.2.jar')
+    compile files('libs/ShareSDK-Evernote-2.8.2.jar')
+    compile files('libs/ShareSDK-Facebook-2.8.2.jar')
+    compile files('libs/ShareSDK-QQ-2.8.2.jar')
+    compile files('libs/ShareSDK-QZone-2.8.2.jar')
+    compile files('libs/ShareSDK-SinaWeibo-2.8.2.jar')
+    compile files('libs/ShareSDK-Twitter-2.8.2.jar')
+    compile files('libs/ShareSDK-Wechat-2.8.2.jar')
+    compile files('libs/ShareSDK-Wechat-Core-2.8.2.jar')
+    compile files('libs/ShareSDK-Wechat-Favorite-2.8.2.jar')
+    compile files('libs/ShareSDK-Wechat-Moments-2.8.2.jar')
+    compile files('libs/ShareSDK-YouDao-2.8.2.jar')
+    compile 'com.google.code.gson:gson:2.7'
+    compile 'com.android.support:support-v4:25.3.1'
+    compile 'in.srain.cube:ultra-ptr:1.0.11'
+    compile 'com.facebook.fresco:fresco:0.10.0'
+    compile 'com.google.android.gms:play-services-appindexing:9.8.0'
+    compile 'com.android.support:support-annotations:25.3.1'
+    compile 'com.android.support:recyclerview-v7:25.3.1'
+    compile 'com.android.support:cardview-v7:25.3.1'
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support:design:25.3.1'
+    compile 'org.greenrobot:greendao:2.2.0'
+    compile 'com.rengwuxian.materialedittext:library:2.1.4'
+    compile 'jp.wasabeef:richeditor-android:1.2.2'
+    compile 'com.jakewharton:butterknife:8.5.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    apt 'com.jakewharton:butterknife-compiler:8.5.1'
+}
+
+

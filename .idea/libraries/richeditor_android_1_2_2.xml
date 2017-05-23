@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="richeditor-android-1.2.2">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/493b99f3fecb42a2ba15160b841380a3c0ee4fab/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/493b99f3fecb42a2ba15160b841380a3c0ee4fab/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/jp.wasabeef/richeditor-android/1.2.2/28a075493692400476744b92053bc9d6a6e3ef82/richeditor-android-1.2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

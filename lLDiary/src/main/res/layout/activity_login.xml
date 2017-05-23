@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_head"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" >
+
+        <TextView
+            android:id="@+id/tv_head"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_head"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_edit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_head"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/et_account"
+            style="@style/LoginEditStyle"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/bg_textfield"
+            android:hint="请输入用户名" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/et_pwd"
+            style="@style/LoginEditStyle"
+            android:layout_below="@id/et_account"
+            android:background="@drawable/bg_textfield"
+            android:hint="请输入密码"
+            android:inputType="textPassword" />
+
+        <!--
+        <EditText
+            android:id="@+id/et_phone"
+            android:background="@drawable/bg_textfield"
+            android:hint="请输入手机号"
+            android:inputType="phone"
+            style="@style/LoginEditStyle"
+            android:layout_below="@id/et_pwd"
+            android:visibility="visible" />
+        
+        <RelativeLayout
+            android:id="@+id/rl_authCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:layout_below="@id/et_phone"
+            >
+        
+        <EditText
+            android:id="@+id/et_authCode"
+            android:background="@drawable/bg_textfield"
+            android:hint="请输入验证码"
+            style="@style/LoginEditStyle" 
+            android:singleLine="true"
+            android:visibility="visible"/>
+        
+        <Button
+            android:id="@+id/sendAuthCode"
+            android:layout_width="96dp"
+            android:layout_height="48dp"
+            android:text="获取验证码"
+            android:background="@color/HomeColor"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            />
+        
+        </RelativeLayout>
+        -->
+
+        <TextView
+            android:id="@+id/tv_forget"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/et_pwd"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:text="@string/forget_user"
+            android:textColor="#BF00C78C" />
+
+        <Button
+            android:id="@+id/button"
+            style="@style/LoginEditStyle"
+            android:layout_below="@id/tv_forget"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/rl_edit"
+        android:layout_marginBottom="10dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_third"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login_third"
+            android:gravity="center"
+            android:background="@drawable/item_bg_setting" 
+          android:layout_alignParentBottom="true"
+          android:layout_marginBottom="100dp"
+          android:textColor="@color/red"
+            android:singleLine="true" />
+        
+        <Button
+            android:id="@+id/btn_weibo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/find_friend_icon_tencent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_weixin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/find_friend_icon_tencent"
+            android:clickable="true"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_qq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/find_friend_icon_tencent"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:textSize="16sp" />
+    </RelativeLayout>
+    
+
+</RelativeLayout>

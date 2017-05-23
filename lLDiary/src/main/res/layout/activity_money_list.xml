@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.carrie.lldiary.ui.MoneyActivity">
+
+
+    <TextView
+        android:id="@+id/tv_today_spend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/tv_date"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="88dp"
+        android:text="@string/today_spend"
+        android:textColor="@color/light_green_accent" />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="56dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/label_bg_pressed"
+        android:text="Today"
+        android:gravity="center"
+        android:textColor="@android:color/white" />
+
+    <!--Bottom-->
+    <TextView
+        android:id="@+id/tv_account_balance"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/look_account_balance"
+        android:textColor="@color/light_green_accent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:gravity="center_vertical"
+        />
+
+    <TextView
+        android:id="@+id/tv_old_money_detail"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/look_details_expense"
+        android:layout_above="@id/tv_account_balance"
+        android:layout_marginTop="32dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/light_green_accent"
+        />
+    <!--Bottom End-->
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/money_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_date"
+        android:layout_above="@id/tv_old_money_detail"
+        android:layout_marginTop="8dp"
+        app:cardCornerRadius="8dp"
+        app:contentPaddingLeft="16dp"
+        app:contentPaddingRight="16dp"
+        >
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/money_today_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </android.support.v7.widget.CardView>
+
+
+
+</RelativeLayout>

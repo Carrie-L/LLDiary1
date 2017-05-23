@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/layout_title_bar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <RelativeLayout
+                android:id="@+id/rl_userInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" 
+                android:gravity="center">
+
+                <com.carrie.lldiary.utils.CircularImage
+                    android:id="@+id/acc_head_photo"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/me_head_bg"
+                    android:focusable="false"
+                   />
+
+                <TextView
+                    android:id="@+id/tv_acc_username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/acc_head_photo"
+                    android:layout_centerVertical="true"
+                    android:padding="8dp"
+                    android:layout_marginLeft="@dimen/setting_margin"
+                    android:text="@string/acc_username" />
+            </RelativeLayout> 
+
+            <com.carrie.lldiary.view.AccountSettingView
+                android:id="@+id/account_setting_view"
+                style="@style/baseStyle"
+                android:layout_below="@id/rl_userInfo"
+                android:layout_marginTop="10dp" />
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

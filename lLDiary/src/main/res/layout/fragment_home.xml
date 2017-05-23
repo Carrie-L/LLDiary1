@@ -1,0 +1,158 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+    
+    <TableRow
+        android:gravity="center"
+        android:layout_marginTop="76dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/ib_home_my_diary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/tv_home_my_diary"
+            style="@style/home_tv_style"
+            android:layout_below="@id/ib_home_my_diary"
+            android:text="@string/my_diary" />
+    </RelativeLayout>
+    
+    <TextView
+            android:layout_width="96dp"
+           android:layout_height="wrap_content"
+            />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       >
+
+        <ImageButton
+            android:id="@+id/ib_home_stiky_note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/tv_home_stiky_note"
+            style="@style/home_tv_style"
+            android:layout_below="@id/ib_home_stiky_note"
+            android:text="@string/my_stiky_note" />
+    </RelativeLayout>
+    
+    </TableRow>
+    
+    <TableRow
+        android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageButton
+            android:id="@+id/ib_home_plan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/tv_home_plan"
+            style="@style/home_tv_style"
+            android:layout_below="@id/ib_home_plan"
+            android:text="@string/my_plan" />
+    </RelativeLayout>
+    
+    <TextView
+            android:layout_width="96dp"
+           android:layout_height="wrap_content"
+            />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       >
+
+        <ImageButton
+            android:id="@+id/ib_home_anniversary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/tv_home_anniversary"
+            style="@style/home_tv_style"
+            android:layout_below="@id/ib_home_anniversary"
+            android:text="@string/my_anniversary" />
+    </RelativeLayout>
+    
+    </TableRow>
+    
+    <TableRow
+        android:gravity="center"
+        >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        >
+
+        <ImageButton
+            android:id="@+id/ib_home_robot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/tv_home_robot"
+            style="@style/home_tv_style"
+            android:layout_below="@id/ib_home_robot"
+            android:gravity="center"
+            android:text="@string/my_robot"
+             />
+    </RelativeLayout>
+    
+    <TextView
+            android:layout_width="96dp"
+           android:layout_height="wrap_content"
+            />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       >
+
+        <ImageButton
+            android:id="@+id/ib_home_money_book"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:text="@string/hello_world" />
+
+        <TextView
+            android:id="@+id/tv_home_money_book"
+            style="@style/home_tv_style"
+            android:layout_below="@id/ib_home_money_book"
+            android:text="@string/my_money_book" 
+            android:gravity="center"/>
+    </RelativeLayout>
+    
+    </TableRow>
+ <include
+        layout="@layout/layout_bottom_bg"/>
+</TableLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="@dimen/radio_button_margin_left"
+        android:layout_marginRight="@dimen/radio_button_margin_left"/>
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/radio_button_margin_left"
+        android:layout_marginRight="@dimen/radio_button_margin_left"
+        android:layout_below="@id/tv"
+        >
+
+        <RadioButton
+            android:id="@+id/rb_left"
+            style="@style/radio_button"
+            />
+
+        <RadioButton
+            android:id="@+id/rb_center"
+            style="@style/radio_button"
+            android:visibility="gone"
+            />
+
+        <RadioButton
+            android:id="@+id/rb_right"
+            style="@style/radio_button"
+            android:visibility="visible"
+            />
+    </RadioGroup>
+
+</RelativeLayout>

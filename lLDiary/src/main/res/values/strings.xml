@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">恋恋日记本</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_edit_dairy">EditDairyActivity</string>
+    <string name="title_activity_details">DetailsActivity</string>
+
+    <string name="tool_bar_more_function">更多功能</string>
+    <string name="tool_bar_setting">设置</string>
+
+    <string name="welcome_sign">欢迎使用恋恋日记本，请您</string>
+    <string name="welcome_register">注册</string>
+    <string name="welcome_login">登录</string>
+
+    <!--注册-->
+    <string name="send_code">发送验证码</string>
+    <string name="resend_code">%s秒后重新发送</string>
+    <string name="post">提交</string>
+    <string name="register_skip">我想先看看，暂不注册</string>
+    <string name="register_account">手机号</string>
+    <string name="register_code">验证码</string>
+    <string name="register_password">密码</string>
+    <string name="register_confirm_password">确认密码</string>
+    <string name="toast_password_not_same">密码不一致！</string>
+    <string name="toast_not_permission_sms">没有发送短信权限，无法验证！</string>
+    <string name="dialog_sms_title">短信权限</string>
+    <string name="dialog_sms_message">为了发送短信验证码，请求开启短信权限。若禁止，则无法注册！</string>
+    <string name="ok">知道了</string>
+
+    <!--忘记密码-->
+    <string name="reset_pwd_title">重置密码</string>
+    <string name="forget_item_title">选择重置密码方式</string>
+    <string name="forget_item_phone">通过手机号重置</string>
+    <string name="forget_item_email">通过邮箱重置</string>
+    <string name="reset_pwd_success">密码重置成功</string>
+
+    <string name="phone_exists_login">手机号已存在，请登录</string>
+    <string name="phone_not_exists_register">手机号不存在，请注册</string>
+
+    <!--日记-->
+    <string name="share">分享</string>
+    <string name="edit">编辑</string>
+    <string name="save_success">保存成功</string>
+
+    <string name="diary">日记</string>
+    <string name="edit_diary">编辑日记</string>
+    <string name="diary_open_edit">已开启编辑模式</string>
+    <string name="hint_diary_title">输入标题</string>
+    <string name="hint_diary_content">输入日记内容</string>
+    <string name="diary_select_weather">选择天气</string>
+    <string name="diary_select_mood">选择心情</string>
+    <string name="diary_select_bg">选择背景</string>
+    <string name="label">标签</string>
+    <string name="label_add">添加标签</string>
+    <string name="size_small">小(12sp)</string>
+    <string name="size_middle">中(14sp)</string>
+    <string name="size_large">大(16sp)</string>
+    <string name="size_x_large">加大(20sp)</string>
+    <string name="size_xx_large">超大(24sp)</string>
+
+    <!--标签-->
+    <string name="title_label">标签</string>
+
+    <string-array name="welcome_tips">
+        <item>你好呀，我是小恋</item>
+        <item>小恋可以陪你聊天哦</item>
+        <item>长夜漫漫无心睡眠,我以为只有我睡不着,原来客官你也睡不着啊 </item>
+        <item>多情自古伤离别，更那堪，冷落清秋节</item>
+        <item>做人如果没有梦想，和咸鱼有什么区别？</item>
+        <item>同志们，八年抗战开始啦</item>
+        <item>小明长期被爸妈蒙在鼓励，导致窒息而死</item>
+        <item>我吃了麻婆豆腐，被麻婆打了一顿</item>
+        <item>杜甫读书破万卷，被图书馆管理员抓了个正着</item>
+        <item>自从我背井离乡，家乡人民就再也没喝过井水了</item>
+        <item>王老汉突然掉到井里，机智小明连忙盖上井盖防止其他人掉下去</item>
+        <item>严重的恐高症害得我终身无法低头捡到钱</item>
+        <item>客官有什么吩咐吗</item>
+        <item>客官你终于来了，小恋已在此等候多时了</item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="title_activity_home">恋恋日记本</string>
+    <string name="my_diary">日记本</string>
+    <string name="my_money_book">记账本</string>
+    <string name="my_stiky_note">便利贴</string>
+    <string name="my_plan">计划表</string>
+    <string name="my_anniversary">纪念日</string>
+    <string name="my_robot">小恋机器人</string>
+    <string name="title_activity_plan">计划表</string>
+    <string name="title_activity_plan_details">PlanDetailsActivity</string>
+    <string name="title_activity_plan_edit">编辑计划表</string>
+    <string name="title_activity_stiky_note">便利贴</string>
+    <string name="title_activity_edit_note">编辑便利贴</string>
+    <string name="title_activity_anniversary">纪念日</string>
+    <string name="title_activity_anniversarye_edit">编辑纪念日</string>
+    <string name="title_activity_money_book">记账本</string>
+    <string name="title_activity_money_edit">编辑记账本</string>
+    <string name="title_activity_robot">小恋机器人</string>
+    <string name="tv_setup_password">设置密码</string>
+    <string name="et_input_password">输入密码</string>
+    <string name="et_confirm_password">确认密码</string>
+    <string name="acc_username">一颗开花的树</string>
+    <string name="acc_setting_username">设置用户名</string>
+    <string name="acc_setting_head_photo">设置头像</string>
+    <string name="acc_input_username">请输入用户名</string>
+
+    <string name="ann_content">纪念内容</string>
+    <string name="ann_person">名字</string>
+    <string name="ann_relationship">关系</string>
+    <string name="ann_remark">备注</string>
+    <string name="ann_person_hint">ta的名字是？</string>
+    <string name="ann_relationship_hint">ta是你的谁？</string>
+    <string name="ann_relationship_remark">有什么补充吗？</string>
+    <string name="ann_date">选择日期</string>
+    <string name="ann_time">选择时间</string>
+    <string name="ann_float_content">长按可选择图标</string>
+    <string name="ann_isRemind">是否提醒</string>
+    <string name="ann_unremind">不提醒</string>
+    <string name="ann_remind">提醒</string>
+    <string name="ann_remind_sms">短信提醒</string>
+    <string name="ann_remind_calendar">日历提醒</string>
+    <string name="ann_remind_date">提醒日期:</string>
+    <string name="ann_hint_content">请输入内容</string>
+    <string name="ann_choose_img">选择纪念类型图片</string>
+    <string name="edit_diary_title">请输入标题</string>
+    <string name="edit_diary_content">请输入日记内容</string>
+    <string name="ann_dtl_days">%s天</string>
+
+    <string name="toast_ann_content">纪念内容不能为空</string>
+    <string name="toast_ann_person">名字不能为空~</string>
+    <string name="toast_ann_relationship">关系也填一下吧~</string>
+
+    <string name="hint_input">Input</string>
+    <string name="hint_click">Click</string>
+
+
+    <!--+++++++++++++++++++++++++++++++++++++++++++记账本+++++++++++++++++++++++++++++++++++++++++++-->
+    <string name="edit_money_content">内容</string>
+    <string name="edit_money_price">单价</string>
+    <string name="edit_money_state">状态</string>
+    <string name="edit_money_income">收入</string>
+    <string name="edit_money_out">支出</string>
+    <string name="edit_money_transfer">转账</string>
+    <string name="money_count">数量</string>
+    <string name="money_content">消费内容</string>
+    <string name="money_classify">类别</string>
+    <string name="money_account">账户</string>
+    <string name="money_date">日期</string>
+    <string name="money_price">价格</string>
+    <string name="money_state">状态</string>
+    <string name="money_select_classify">请选择分类</string>
+    <string name="money_select_account">请选择账户</string>
+    <string name="toast_money_content">消费内容不能为空</string>
+    <string name="toast_money_price">价格不能为空</string>
+    <string name="toast_money_classify">类别不能为空</string>
+    <string name="toast_money_account">账户不能为空</string>
+    <string name="toast_edit_not_null">输入不能为空</string>
+    <string name="toast_is_existed">已存在</string>
+
+    <string name="total_income">收入：</string>
+    <string name="total_expense">支出：</string>
+    <string name="total_yuan">￥</string>
+    <string name="total_yuan_">￥;</string>
+    <string name="today_spend" formatted="false">总收入：%1$s元&#160;&#160;总支出：%2$s元</string>
+    <string name="expense">-%s元</string>
+    <string name="income">+%s元</string>
+
+    <string name="input_balance">输入余额</string>
+
+    <string name="look_details_expense">查看以往详细收支</string>
+    <string name="look_account_balance">查看账户余额</string>
+    <string name="expense_summary"><Data><![CDATA[ <font color="#ffaaaa">%1$s</font>&#160;-&#160;<font color="#ffaaaa">%2$s</font>&#160;共支出&#160;<font color="#e91e63" size=4>-%3$s</font>元，收入&#160;<font color="#8BC34A" size=6>+%4$s</font>元，其中：<br>%5$s<br /> ]]> </Data></string>
+
+
+    <!--+++++++++++++++++++++++++++++++++++++++++++记账本 END +++++++++++++++++++++++++++++++++++++++++++-->
+
+
+    <string name="title_add_classify">添加分类</string>
+    <string name="title_add_accouunt">添加账户</string>
+    <string name="title_add_ann">添加纪念日类型</string>
+    <string name="title_select_icon">"请选择图标"</string>
+
+    <!--+++++++++++++++++++++++++++++++++++++++++++标题 END +++++++++++++++++++++++++++++++++++++++++++-->
+
+
+    <string name="edit_plan_content">计划内容</string>
+    <string name="edit_plan_hint_content">请输入内容</string>
+    <string name="edit_plan_time">计划时间</string>
+    <string name="edit_plan_import">重要程度</string>
+    <string name="edit_plan_finish_state">完成状态</string>
+    <string name="edit_plan_unFinish">未完成</string>
+    <string name="edit_plan_finish">已完成</string>
+    <string name="edit_plan_hint_time1">开始时间</string>
+    <string name="edit_plan_hint_time2">结束时间</string>
+
+    <string name="edit_plan_import1">重要又紧急</string>
+    <string name="edit_plan_import2">重要但不紧急</string>
+    <string name="edit_plan_import3">紧急但不重要</string>
+    <string name="edit_plan_import4">不紧急也不重要</string>
+
+
+    <string name="plan_title">计划表</string>
+    <string name="plan_id">序号</string>
+    <string name="plan_date">日期</string>
+    <string name="plan_content">计划内容</string>
+    <string name="btn_confirm">确定</string>
+    <string name="settiing_password">设置日记本密码锁</string>
+    <string name="settiing_whole_password">设置软件密码锁</string>
+    <string name="text1">加密整个软件</string>
+    <string name="text2">只加密日记本</string>
+    <string name="settiing_img_password">设置图案密码锁</string>
+    <string name="settiing_input_password">设置输入框密码锁</string>
+
+
+    <string name="app_description">记录日常的点点滴滴</string>
+    <string name="app_version">版本号：</string>
+    <string name="app_weibo">新浪微博：恋恋日记本</string>
+    <string name="app_author">作者：Carrie-L</string>
+    <string name="app_email">联系邮箱：ygzrsno@163.com</string>
+    <string name="home_style1">粉红心情</string>
+    <string name="home_style2">盛夏气息</string>
+    <string name="home_style3">暗夜城堡</string>
+    <string name="action_feedback">Feedback</string>
+    <string name="action_new_conversation">新建会话</string>
+    <string name="feedback_title">用户反馈</string>
+    <string name="fb_fragment_activity">使用 SDK Fragment</string>
+    <string name="sdk_fb_activity">使用 SDK Activity</string>
+    <string name="multi_conversation_activity">多会话模式</string>
+    <string name="title_item_list">反馈列表</string>
+    <string name="fb_help_activity">帮助页面</string>
+    <string name="title_activity_main_password">WWholePasswordActivity</string>
+
+    <string name="enter">进入主界面</string>
+
+    <!-- Accessibility description sent when user starts drawing a lock pattern. [CHAR LIMIT=NONE] -->
+    <string name="lockscreen_access_pattern_start">Pattern started</string>
+    <!-- Accessibility description sent when the pattern times out and is cleared. [CHAR LIMIT=NONE] -->
+    <string name="lockscreen_access_pattern_cleared">Pattern cleared</string>
+    <!-- Accessibility description sent when user adds a cell to the pattern. [CHAR LIMIT=NONE]  -->
+    <string name="lockscreen_access_pattern_cell_added">Cell added</string>
+    <!-- Accessibility description sent when user completes drawing a pattern. [CHAR LIMIT=NONE] -->
+    <string name="lockscreen_access_pattern_detected">Pattern completed</string>
+
+    <string name="forgetPwd"><u>忘记密码</u></string>
+    <string name="OK">确认</string>
+    <string name="okGO">前往设置</string>
+    <string name="Cancel">取消</string>
+
+    <!-- account setting -->
+    <string name="account_title">账户设置</string>
+    <string name="account_usename">设置用户名：</string>
+    <string name="account_useemail">设置邮箱：</string>
+    <string name="account_hintemail">邮箱用于找回密码</string>
+
+    <!-- ++++++++++++++++ 登录/注册 ++++++++++++++++++++++++++++++++  -->
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="toast_username_null">用户名不能为空</string>
+    <string name="toast_phone_null">手机号不能为空</string>
+    <string name="toast_code_null">验证码不能为空</string>
+    <string name="toast_userpwd_null">密码不能为空</string>
+    <string name="toast_confirm_pwd_null">确认密码不能为空</string>
+    <string name="toast_userpwd_length">密码长度必须大于6</string>
+    <string name="toast_useremail_null">邮箱不能为空</string>
+    <string name="toast_useremail_valid">不是合法的邮箱</string>
+    <string name="toast_userauthcode_null">验证码不能为空</string>
+
+    <string name="toast_register_success">注册成功</string>
+    <string name="toast_register_failed_email">注册失败，邮箱已存在，请您登录</string>
+    <string name="toast_register_failed_username">注册失败，用户名已存在</string>
+    <string name="toast_register_failed_username_pwd_null">注册失败，用户名或密码为空</string>
+    <string name="toast_register_failed_phone_exists">手机号已存在，请登录</string>
+    <string name="toast_login_success">登录成功</string>
+    <string name="toast_login_failed_incorrect">登录失败，用户名或密码不正确</string>
+    <string name="toast_login_failed">登录失败</string>
+
+
+    <string name="toast_network_outtime">网络超时</string>
+    <string name="toast_network_error">无网络连接，请检查您的手机网络。</string>
+    <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++  -->
+
+    <string name="forget_user">忘记用户名/密码</string>
+    <string name="login_third">使用以下第三方登录</string>
+
+    <!-- ===========================账户管理START======================================== -->
+    <string name="modify_username">修改用户名</string>
+    <string name="modify_userpwd">修改密码</string>
+    <string name="modify_useravatar">修改头像</string>
+
+    <string name="binding_email">绑定邮箱</string>
+    <string name="binding_qq">绑定QQ</string>
+    <string name="binding_weibo">绑定微博</string>
+    <string name="binding_wx">绑定微信</string>
+
+    <string name="log_out">退出登录</string>
+    <!-- ===========================账户管理END======================================== -->
+
+    <!--  修改用户名/密码对话框-->
+    <string name="input_new_username">请输入新的用户名</string>
+    <string name="input_new_userpwd">请输入新的密码</string>
+    <string name="input_orginal_userpwd">请输入原来的密码</string>
+    <string name="input_confirm_userpwd">请确认密码</string>
+    <string name="hint_email">邮箱：及其重要！用于找回用户名/密码，请勿输错！</string>
+    <string name="input_email">请输入邮箱</string>
+
+    <string name="btn_ok">确定</string>
+    <string name="btn_cancel">取消</string>
+    <string name="dialog_back">您输入的信息还没有保存，确定返回吗？</string>
+
+    <string name="toast_pwd_not_equal">两次密码不一致</string>
+    <string name="toast_pwd_not_equal_orginal">修改失败，密码与原来的不一致</string>
+
+    <string name="toast_modify_success">修改成功</string>
+    <string name="toast_modify_failed">修改失败</string>
+    <string name="toast_modify_username_failed">修改失败,，用户名已存在</string>
+    <string name="toast_modify_useremail_failed">修改失败,，邮箱已存在</string>
+    <string name="toast_binding_success">绑定成功</string>
+    <string name="toast_binding_email_success">绑定成功，已发送验证邮件到您的邮箱，请于一周内验证该邮箱，否则将失效</string>
+    <string name="toast_binding_failed">绑定失败</string>
+
+    <string name="toast_email_not_exsits">该邮箱与您的绑定邮箱不一致</string>
+    <string name="toast_email_not_valid">绑定失败，邮箱格式错误</string>
+
+
+    <string name="dialog_reset_pwd">已发送重置密码邮件到您的邮箱，请在一个小时内进行操作，过时将失效</string>
+
+
+    <!-- ===========================计划表Plan======================================== -->
+    <string name="plan_select_priority">请选择优先级</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <!-- ===========================计划表Plan END======================================== -->
+
+</resources>

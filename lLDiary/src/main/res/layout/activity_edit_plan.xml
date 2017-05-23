@@ -1,0 +1,138 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/tv_remind_date"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        android:background="@color/primaryColorDark"
+        android:gravity="center"
+        android:textColor="@color/white" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/tv_remind_date"
+        >
+
+        <RelativeLayout
+            android:id="@+id/rl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+
+            <TextView
+                android:id="@+id/tv_plan_content"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:text="@string/edit_plan_content" />
+
+            <!--<EditText-->
+                <!--android:id="@+id/et_plan_content"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="16dp"-->
+                <!--android:layout_marginBottom="8dp"-->
+                <!--android:layout_toRightOf="@id/tv_plan_content"-->
+                <!--android:hint="@string/edit_plan_hint_content"-->
+                <!--android:minLines="1"-->
+                <!--android:padding="8dp" />-->
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/et_plan_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_toRightOf="@id/tv_plan_content"
+                app:met_primaryColor="@color/primaryColorDark"
+                app:met_baseColor="@color/primaryColor"
+                app:met_underlineColor="@color/primaryColor"
+                app:met_clearButton="true"
+                android:hint="@string/edit_plan_hint_content"
+                android:focusableInTouchMode="true"
+                />
+
+            <TextView
+                android:id="@+id/tv_plan_time"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_below="@id/et_plan_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="@string/edit_plan_time" />
+
+            <TextView
+                android:id="@+id/tv_plan_time1"
+                android:layout_width="80dp"
+                android:layout_height="48dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="3dp"
+                android:layout_toRightOf="@id/tv_plan_time"
+                android:background="@android:drawable/editbox_background"
+                android:gravity="center"
+                android:layout_below="@id/et_plan_content"
+                android:layout_alignTop="@id/tv_plan_time"
+                android:hint="@string/edit_plan_hint_time1" />
+
+            <TextView
+                android:id="@+id/tv_plan_time_"
+                android:layout_width="20dp"
+                android:layout_height="48dp"
+                android:layout_below="@id/et_plan_content"
+                android:layout_toRightOf="@id/tv_plan_time1"
+                android:gravity="center"
+                android:layout_alignTop="@id/tv_plan_time"
+                android:text="—" />
+
+            <TextView
+                android:id="@+id/tv_plan_time2"
+                android:layout_width="80dp"
+                android:layout_height="48dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="16dp"
+                android:layout_below="@id/et_plan_content"
+                android:layout_toRightOf="@id/tv_plan_time_"
+                android:layout_alignTop="@id/tv_plan_time"
+                android:background="@android:drawable/editbox_background"
+                android:gravity="center"
+                android:hint="@string/edit_plan_hint_time2" />
+
+            <com.carrie.lldiary.view.EditView
+                android:id="@+id/plan_icon_view"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_below="@id/tv_plan_time"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp" />
+
+            <com.carrie.lldiary.view.RadioButtonView
+                android:id="@+id/rg_plan_finish"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/plan_icon_view"
+                android:layout_marginTop="8dp" />
+
+            <com.carrie.lldiary.view.RadioButtonView
+                android:id="@+id/rg_plan_remind"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rg_plan_finish"
+                android:layout_marginTop="16dp" />
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

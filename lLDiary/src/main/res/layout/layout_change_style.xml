@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <include layout="@layout/layout_edit_title_bar" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:gravity="center_horizontal"
+            android:padding="20dp" >
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp" >
+                <ImageButton
+                    android:id="@+id/ib_style1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/home_diary1" />
+                <ImageButton
+                    android:id="@+id/ib_selected"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/selected_img_tag" />
+                <TextView
+                    style="@style/textStyle"
+                    android:layout_below="@id/ib_style1"
+                    android:text="@string/home_style1" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp" >
+                <ImageButton
+                    android:id="@+id/ib_style2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/home_diary2" />
+                <ImageButton
+                    android:id="@+id/ib_selected2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/selected_img_tag" />
+                <TextView
+                    style="@style/textStyle"
+                    android:layout_below="@id/ib_style2"
+                    android:text="@string/home_style2" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp" >
+                <ImageButton
+                    android:id="@+id/ib_style3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/home_diary3" />
+                <ImageButton
+                    android:id="@+id/ib_selected3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/selected_img_tag" />
+                <TextView
+                    style="@style/textStyle"
+                    android:layout_below="@id/ib_style3"
+                    android:text="@string/home_style3" />
+            </RelativeLayout>
+        </TableRow>
+    </TableLayout>
+
+    <RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/iv_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_bottom2" />
+
+</RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.carrie.lldiary.view.EditView
+        android:id="@+id/et_money_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:nextFocusDown="@+id/et_money_price"
+        />
+
+    <com.carrie.lldiary.view.EditView
+        android:id="@+id/et_money_price"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:nextFocusDown="@+id/et_money_classify"
+        />
+
+
+    <com.carrie.lldiary.view.EditView
+        android:id="@+id/et_money_classify"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:inputType="numberDecimal"
+        />
+
+    <com.carrie.lldiary.view.EditView
+        android:id="@+id/et_money_account"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        />
+
+
+    <com.carrie.lldiary.view.RadioButtonView
+        android:id="@+id/rb_money_state"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        />
+
+    <com.carrie.lldiary.view.EditView
+        android:id="@+id/et_money_date"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:nextFocusDown="@+id/et_money_price"
+        />
+
+
+
+    
+
+</LinearLayout>

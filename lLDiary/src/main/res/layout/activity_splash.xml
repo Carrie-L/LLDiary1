@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_root_splah"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="66dp"
+        android:background="@drawable/logo" />
+
+    <TextView
+        style="@style/textStyle"
+        android:text="@string/app_name"
+        android:textColor="@color/light_pink"
+        android:textSize="22sp" />
+
+    <TextView
+        style="@style/textStyle"
+        android:text="@string/app_description"
+        android:textColor="@color/light_pink" />
+
+    <TextView
+        android:id="@+id/tv_splash_version"
+        style="@style/textStyle"
+        android:layout_marginTop="36dp"
+        android:text="@string/app_version"
+        android:textColor="@color/light_pink" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="8dp" />
+
+    <TextView
+        android:id="@+id/tv_update_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:text="升级进度：0%"
+        android:textSize="20sp"
+        android:visibility="invisible" />
+
+</LinearLayout>

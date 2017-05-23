@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_editdiary_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ >
+
+    <include 
+        android:id="@+id/title_bar"
+        layout="@layout/layout_edit_title_bar" />
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/sdv_diary_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_bar"
+        />
+
+    <LinearLayout
+        android:id="@+id/ll_header"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/title_bar"
+        >
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:textSize="12sp"
+            android:textColor="@color/primaryColor_accent_transparent"/>
+
+        <ImageView
+            android:id="@+id/iv_weather"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_gravity="center_vertical"/>
+
+        <ImageView
+            android:id="@+id/iv_mood"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ll_header"
+        >
+
+
+
+        <EditText
+            android:id="@+id/et_editdiary_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/primary_text_color_trans"
+            android:gravity="top"
+            android:hint="@string/edit_diary_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+    
+  
+   <!--  <com.carrie.lldiary.view.FaceRelativeLayout -->
+        <com.carrie.lldiary.view.TabViewPager
+        android:id="@+id/face_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+            android:background="@color/primaryColor_transparent_96"
+        />
+   
+
+</RelativeLayout>

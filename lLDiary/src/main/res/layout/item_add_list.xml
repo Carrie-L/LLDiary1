@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/met_balance"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:maxLength="7"
+        app:met_baseColor="@color/primaryColor"
+        android:hint="@string/input_balance"
+        app:met_maxCharacters="7"
+        android:layout_toLeftOf="@id/iv_icon"
+        android:layout_marginRight="16dp"
+        app:met_singleLineEllipsis="true"
+        />
+
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/met_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/met_balance"
+        android:layout_marginRight="16dp"
+        app:met_baseColor="@color/primaryColor"
+        app:met_singleLineEllipsis="true"
+        />
+
+</RelativeLayout>

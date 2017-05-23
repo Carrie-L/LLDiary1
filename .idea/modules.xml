@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LLDiary1.iml" filepath="$PROJECT_DIR$/LLDiary1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/greendao/greendao.iml" filepath="$PROJECT_DIR$/greendao/greendao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lLDiary/lLDiary.iml" filepath="$PROJECT_DIR$/lLDiary/lLDiary.iml" />
+    </modules>
+  </component>
+</project>

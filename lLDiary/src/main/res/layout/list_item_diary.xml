@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="96dp"
+    android:background="@drawable/body_item"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:id="@+id/tv_item_diary_title"
+        style="@style/textStyle"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:textColor="@color/green" />
+
+    <TextView
+        android:id="@+id/tv_item_diary_content"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:paddingLeft="5dp" />
+
+    <TextView
+        android:id="@+id/tv_item_diary_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="2015"
+        android:textColor="@color/deep_gray"
+        android:textSize="12sp" />
+
+</LinearLayout>

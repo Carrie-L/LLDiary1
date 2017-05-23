@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:background="@drawable/title_bar"
+        />
+
+    <com.carrie.lldiary.view.EmojiconView
+        android:id="@+id/emojiconView"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:layout_below="@id/tv_select"
+        />
+
+</RelativeLayout>
